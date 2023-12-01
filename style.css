@@ -104,6 +104,10 @@ button {
     padding: 50px 0;
 }
 
+.container2 {
+    background-color: white;
+}
+
 .container2-child {
     display: flex;
     justify-content: center;
@@ -134,4 +138,25 @@ button {
     font-size: 22px;
     color: gray;
     text-align: center;
+}
+
+
+/* Container #3 */
+
+.container3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 200px 350px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: right;
 }
