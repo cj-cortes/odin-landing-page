@@ -83,6 +83,7 @@ a {
 
 button {
     background-color: #3882F6;
+    font-size: 16px;
     box-sizing: border-box;
     color: #F9FAF8;
     border-radius: 8px;
@@ -147,7 +148,7 @@ button {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 200px 350px;
+    padding: 150px 350px;
 }
 
 .quote {
@@ -159,4 +160,39 @@ button {
     font-weight: 700;
     font-size: 24px;
     text-align: right;
+}
+
+
+/* Container #4 */
+
+.container4 {
+    padding: 120px 300px;
+    flex: wrap;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    align-items: center;
+}
+
+.action-text-1,
+.action-text-2 {
+    color: white;
+}
+
+.action-text-1 {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.action-text-2 {
+    font-size: 18px;
+}
+
+.button2 {
+    border: 2px solid white;
 }
