@@ -78,6 +78,7 @@ a {
     align-items: center;
     height: 215px;
     flex: 1;
+    font-size: 18px;
 }
 
 
@@ -195,4 +196,16 @@ button {
 
 .button2 {
     border: 2px solid white;
+}
+
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 48px 0;
 }
